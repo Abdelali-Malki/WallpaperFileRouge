@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+
+            android:icon="@drawable/ic_menu_gallery"
+            android:iconTint="@color/white"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cat1"
+            android:icon="@drawable/ic_view_quilt_24px"
+            android:iconTint="@color/white"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_fav1"
+            android:icon="@drawable/ic_favorite_24px"
+            android:iconTint="@color/white"
+            android:title="Favorites" />
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:iconTint="@color/white"
+                android:title="Share App" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_thumb_up_24px"
+                android:iconTint="@color/white"
+                android:title="Rate This App" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:iconTint="@color/white"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_security_24px"
+                android:iconTint="@color/white"
+                android:title="Privacy" />
+        </menu>
+    </item>
+
+</menu>

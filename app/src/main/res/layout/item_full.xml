@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shimmer="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <com.revosleap.blurrylayout.BlurryLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/blurLayout"
+        app:blurColor="@android:color/white"
+        app:blurOpacity=".4"
+        app:blurImage="@drawable/bg1"
+        app:blurRadius="0"
+        shimmer:ignore="MissingClass">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="title" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageSlid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+
+                android:scaleType="centerCrop"
+                />
+
+
+
+        </FrameLayout>
+
+
+
+    </com.revosleap.blurrylayout.BlurryLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+
